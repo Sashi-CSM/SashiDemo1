@@ -1,0 +1,38 @@
+Warning: NLS unused message: QTEST in: com.kms.katalon.constants.globalMessages
+Warning: NLS missing message: QTEST_NAME in: com.kms.katalon.constants.globalMessages
+2025-07-17 12:43:11.935 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/TS_Cura Health Services
+2025-07-17 12:43:12.081 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Sashidhar Sashi Mudigonda
+2025-07-17 12:43:12.086 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = SashiDemo1
+2025-07-17 12:43:12.086 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = sashidharmudigonda - 192.168.1.7
+2025-07-17 12:43:12.087 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Mac OS X 64bit
+2025-07-17 12:43:12.089 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 192.168.1.7
+2025-07-17 12:43:12.090 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 10.2.3.0
+2025-07-17 12:43:12.818 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-07-17 12:43:12.820 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Cura Health Services/TC_Cura Health Service - Login
+2025-07-17 12:43:13.086 INFO  com.kms.katalon.core.util.KeywordUtil    - [SAUCELABS] Current run configuration: Chrome (headless)
+2025-07-17 12:43:13.091 INFO  com.kms.katalon.core.util.KeywordUtil    - [SAUCELABS] Saucelabs Plugin will not attempt to auto update job status and information !
+2025-07-17 12:43:13.390 DEBUG t.TC_Cura Health Service - Login         - 1: openBrowser("")
+2025-07-17 12:43:13.650 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome (headless)' driver
+2025-07-17 12:43:13.698 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Jul 17, 2025 12:43:22 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 138, returning the closest version; found: 135; Please update to a Selenium version that supports CDP version 138
+2025-07-17 12:43:23.642 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 980901eb869f642418227e5f26ace78f
+2025-07-17 12:43:23.647 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 138.0.7204.101
+2025-07-17 12:43:23.649 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Mac OS X
+2025-07-17 12:43:23.650 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-07-17 12:43:23.688 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-07-17 12:43:23.812 DEBUG t.TC_Cura Health Service - Login         - 2: navigateToUrl("https://katalon-demo-cura.herokuapp.com/")
+2025-07-17 12:43:27.366 DEBUG t.TC_Cura Health Service - Login         - 3: switchToWindowTitle("CURA Healthcare Service")
+2025-07-17 12:43:27.449 DEBUG t.TC_Cura Health Service - Login         - 4: verifyElementText(findTestObject("Object Repository/Page_CURA Healthcare Service/h1_CURA Healthcare Service"), "CURA Healthcare Service")
+2025-07-17 12:43:27.946 DEBUG t.TC_Cura Health Service - Login         - 5: verifyElementText(findTestObject("Object Repository/Page_CURA Healthcare Service/a_Make Appointment"), "Make Appointment")
+2025-07-17 12:43:28.290 DEBUG t.TC_Cura Health Service - Login         - 6: click(findTestObject("Object Repository/Page_CURA Healthcare Service/a_Make Appointment"))
+2025-07-17 12:43:30.289 DEBUG t.TC_Cura Health Service - Login         - 7: verifyElementText(findTestObject("Object Repository/Page_CURA Healthcare Service/h2_Login"), "Login")
+2025-07-17 12:43:30.783 DEBUG t.TC_Cura Health Service - Login         - 8: setText(findTestObject("Object Repository/Page_CURA Healthcare Service/input_Username_username"), "John Doe")
+2025-07-17 12:43:31.620 DEBUG t.TC_Cura Health Service - Login         - 9: setEncryptedText(findTestObject("Object Repository/Page_CURA Healthcare Service/input_Password_password"), "g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM")
+2025-07-17 12:43:32.066 DEBUG t.TC_Cura Health Service - Login         - 10: click(findTestObject("Object Repository/Page_CURA Healthcare Service/button_Login"))
+2025-07-17 12:43:33.640 DEBUG t.TC_Cura Health Service - Login         - 11: closeBrowser()
+2025-07-17 12:43:33.803 INFO  com.kms.katalon.core.util.KeywordUtil    - [SAUCELABS] Current run configuration: Chrome (headless)
+2025-07-17 12:43:33.804 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Cura Health Services/TC_Cura Health Service - Login
+2025-07-17 12:43:33.834 INFO  c.k.katalon.core.main.TestSuiteExecutor  - --------------------
+2025-07-17 12:43:33.835 INFO  c.k.katalon.core.main.TestSuiteExecutor  - END Test Suites/TS_Cura Health Services
+2025-07-17 12:43:33.835 INFO  c.k.katalon.core.main.TestSuiteExecutor  - ====================
