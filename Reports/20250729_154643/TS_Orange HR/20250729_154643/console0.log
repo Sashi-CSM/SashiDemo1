@@ -1,0 +1,223 @@
+Warning: NLS unused message: QTEST in: com.kms.katalon.constants.globalMessages
+Warning: NLS missing message: QTEST_NAME in: com.kms.katalon.constants.globalMessages
+2025-07-29 15:46:45.961 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/TS_Orange HR
+2025-07-29 15:46:45.993 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Sashidhar Sashi Mudigonda
+2025-07-29 15:46:45.993 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = SashiDemo1
+2025-07-29 15:46:45.993 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = sashidharmudigonda - 192.168.1.8
+2025-07-29 15:46:45.993 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Mac OS X 64bit
+2025-07-29 15:46:45.994 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 192.168.1.8
+2025-07-29 15:46:45.994 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 10.2.3.0
+2025-07-29 15:46:46.129 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-07-29 15:46:46.129 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Cura Health Services/TC_Cura Health Services - Make Appointment
+2025-07-29 15:46:46.150 INFO  com.kms.katalon.core.util.KeywordUtil    - [SAUCELABS] Current run configuration: TestCloud - macOS, Msedge, version=140, Tunnel=false
+2025-07-29 15:46:46.151 INFO  com.kms.katalon.core.util.KeywordUtil    - [SAUCELABS] Saucelabs Plugin will not attempt to auto update job status and information !
+2025-07-29 15:46:46.230 DEBUG _Cura Health Services - Make Appointment - 1: openBrowser("")
+2025-07-29 15:46:46.317 INFO  c.k.k.c.w.util.WebDriverPropertyUtil     - User set preference: ['browserVersion', '140']
+2025-07-29 15:46:46.318 INFO  c.k.k.c.w.util.WebDriverPropertyUtil     - User set preference: ['browserName', 'msedge']
+2025-07-29 15:46:46.321 INFO  c.k.k.c.w.util.WebDriverPropertyUtil     - User set preference: ['platformName', 'macos']
+2025-07-29 15:46:46.321 INFO  c.k.k.c.w.util.WebDriverPropertyUtil     - User set preference: ['katalon:options', '{metadata={organizationId=2135177, accountId=1489519, channel=kse;v=10.2.3, projectId=2100129}, executionMode=queue, usingTunnel=false}']
+2025-07-29 15:46:46.329 INFO  c.k.k.core.webui.driver.DriverFactory    - Connecting to remote web server 'testcloud.katalon.com/wd/hub' with type 'Selenium'
+2025-07-29 15:46:46.410 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2025-07-29 15:47:09.274 ERROR .s.f.SeleniumCreateSessionResponseFilter - Exception while trying to back-fill sessionId
+com.fasterxml.jackson.core.JsonParseException: Illegal character ((CTRL-CHAR, code 31)): only regular white space (\r, \n, \t) is allowed between tokens
+ at [Source: REDACTED (`StreamReadFeature.INCLUDE_SOURCE_IN_LOCATION` disabled); line: 1, column: 2]
+	at com.fasterxml.jackson.core.JsonParser._constructError(JsonParser.java:2572)
+	at com.fasterxml.jackson.core.JsonParser._constructReadException(JsonParser.java:2598)
+	at com.fasterxml.jackson.core.base.ParserMinimalBase._throwInvalidSpace(ParserMinimalBase.java:712)
+	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser._skipWSOrEnd(ReaderBasedJsonParser.java:2509)
+	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser.nextToken(ReaderBasedJsonParser.java:673)
+	at com.fasterxml.jackson.databind.ObjectMapper._initForReading(ObjectMapper.java:4992)
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4898)
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3848)
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3816)
+	at com.kms.katalon.selenium.filter.SeleniumCreateSessionResponseFilter.lambda$0(SeleniumCreateSessionResponseFilter.java:43)
+	at com.kms.katalon.selenium.filter.SeleniumCreateSessionPayloadFilter.lambda$0(SeleniumCreateSessionPayloadFilter.java:73)
+	at com.kms.katalon.selenium.filter.SeleniumBasicAuthorizationFilter.lambda$0(SeleniumBasicAuthorizationFilter.java:58)
+	at com.kms.katalon.selenium.filter.SeleniumResponseContentEncodingDecompressionFilter.lambda$0(SeleniumResponseContentEncodingDecompressionFilter.java:44)
+	at com.kms.katalon.selenium.filter.SeleniumAcceptEncodingFilter.lambda$0(SeleniumAcceptEncodingFilter.java:25)
+	at com.kms.katalon.selenium.filter.SeleniumProxyBasicAuthorizationFilter.lambda$0(SeleniumProxyBasicAuthorizationFilter.java:49)
+	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.lambda$executeAsync$1(JdkHttpClient.java:384)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2025-07-29 15:47:09.297 WARN  c.k.k.core.webui.driver.DriverFactory    - Your browser version or type does not support the BiDirectional WebDriver Protocol which is required for Smart Locator functionality. Please update your browser or switch to a compatible one.
+2025-07-29 15:47:09.298 WARN  c.k.k.core.webui.driver.DriverFactory    - Your browser version or type does not support the BiDirectional WebDriver Protocol which is required for Smart Locator functionality. Please update your browser or switch to a compatible one.
+2025-07-29 15:47:09.298 WARN  c.k.k.core.webui.driver.DriverFactory    - Your browser version or type does not support the BiDirectional WebDriver Protocol which is required for Smart Locator functionality. Please update your browser or switch to a compatible one.
+2025-07-29 15:47:09.444 INFO  c.k.k.core.webui.driver.DriverFactory    - remoteDriverUrl = testcloud.katalon.com/wd/hub
+2025-07-29 15:47:09.445 INFO  c.k.k.core.webui.driver.DriverFactory    - remoteOS = macOS
+2025-07-29 15:47:09.448 INFO  c.k.k.core.webui.driver.DriverFactory    - desiredCapabilities = {
+  "networkConnectionEnabled": false,
+  "msedge": {
+    "msedgedriverVersion": "140.0.3442.1 (1ceb2b338a3ca9c968827cdc74eb44a27b2b4768-refs/heads/main@{#1486190})",
+    "userDataDir": "/var/folders/k9/8klndb996n3dy6zmj6xhj1lr0000gp/T/.com.microsoft.edgemac.B5T8pI"
+  },
+  "timeouts": {
+    "implicit": 0,
+    "pageLoad": 300000,
+    "script": 30000
+  },
+  "pageLoadStrategy": "normal",
+  "unhandledPromptBehavior": "dismiss and notify",
+  "strictFileInteractability": false,
+  "proxy": {
+    "proxyType": "UNSPECIFIED",
+    "autodetect": false
+  },
+  "webauthn:extension:minPinLength": true,
+  "webauthn:extension:credBlob": true,
+  "webauthn:extension:prf": true,
+  "acceptInsecureCerts": false,
+  "browserVersion": "140.0.3442.1",
+  "katalon:caps": {
+    "executionId": "24a061a2-40c3-4430-9179-fd7b161b18c4",
+    "executionSessionId": "214e5887-06f4-4bbf-b6fa-3343d4ec151d"
+  },
+  "fedcm:accounts": true,
+  "browserName": "MicrosoftEdge",
+  "platformName": "MAC",
+  "ms:edgeOptions": {
+    "debuggerAddress": "localhost:49687"
+  },
+  "setWindowRect": true,
+  "webauthn:extension:largeBlob": true,
+  "katalon:options": {
+    "executionId": "24a061a2-40c3-4430-9179-fd7b161b18c4",
+    "executionSessionId": "214e5887-06f4-4bbf-b6fa-3343d4ec151d",
+    "runFromTestCloud": true
+  },
+  "webauthn:virtualAuthenticators": true
+}
+2025-07-29 15:47:09.450 INFO  c.k.k.core.webui.driver.DriverFactory    - katalon:caps = {
+  "executionId": "24a061a2-40c3-4430-9179-fd7b161b18c4",
+  "executionSessionId": "214e5887-06f4-4bbf-b6fa-3343d4ec151d"
+}
+2025-07-29 15:47:09.451 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 214e5887-06f4-4bbf-b6fa-3343d4ec151d
+2025-07-29 15:47:09.454 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Edge Chromium 140.0.3442.1
+2025-07-29 15:47:09.455 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Mac OS X
+2025-07-29 15:47:09.455 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-07-29 15:47:09.463 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-07-29 15:47:09.820 DEBUG _Cura Health Services - Make Appointment - 2: navigateToUrl("https://katalon-demo-cura.herokuapp.com/")
+2025-07-29 15:47:10.627 DEBUG _Cura Health Services - Make Appointment - 3: switchToWindowTitle("CURA Healthcare Service")
+2025-07-29 15:47:11.655 DEBUG _Cura Health Services - Make Appointment - 4: verifyElementText(findTestObject("Object Repository/Page_CURA Healthcare Service/h1_CURA Healthcare Service"), "CURA Healthcare Service")
+2025-07-29 15:47:13.606 DEBUG _Cura Health Services - Make Appointment - 5: click(findTestObject("Object Repository/Page_CURA Healthcare Service/a_Make Appointment"))
+2025-07-29 15:47:15.393 DEBUG _Cura Health Services - Make Appointment - 6: setText(findTestObject("Object Repository/Page_CURA Healthcare Service/input_Username_username"), "John Doe")
+2025-07-29 15:47:19.972 DEBUG _Cura Health Services - Make Appointment - 7: setEncryptedText(findTestObject("Object Repository/Page_CURA Healthcare Service/input_Password_password"), "g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM")
+2025-07-29 15:47:22.121 DEBUG _Cura Health Services - Make Appointment - 8: click(findTestObject("Object Repository/Page_CURA Healthcare Service/button_Login"))
+2025-07-29 15:47:23.928 DEBUG _Cura Health Services - Make Appointment - 9: click(findTestObject("Object Repository/Page_CURA Healthcare Service/label_Visit Date (Required)"))
+2025-07-29 15:47:25.641 DEBUG _Cura Health Services - Make Appointment - 10: setText(findTestObject("Object Repository/Page_CURA Healthcare Service/input_Visit Date (Required)_visit_date"), "31/12/2005")
+2025-07-29 15:47:29.840 DEBUG _Cura Health Services - Make Appointment - 11: click(findTestObject("Object Repository/Page_CURA Healthcare Service/form_Facility                              _20adf0"))
+2025-07-29 15:47:31.626 DEBUG _Cura Health Services - Make Appointment - 12: click(findTestObject("Object Repository/Page_CURA Healthcare Service/button_Book Appointment"))
+2025-07-29 15:47:33.391 DEBUG _Cura Health Services - Make Appointment - 13: click(findTestObject("Object Repository/Page_CURA Healthcare Service/a_Go to Homepage"))
+2025-07-29 15:47:35.349 DEBUG _Cura Health Services - Make Appointment - 14: closeBrowser()
+2025-07-29 15:47:35.779 INFO  com.kms.katalon.core.util.KeywordUtil    - [SAUCELABS] Current run configuration: TestCloud - macOS, Msedge, version=140, Tunnel=false
+2025-07-29 15:47:35.781 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Cura Health Services/TC_Cura Health Services - Make Appointment
+2025-07-29 15:47:35.789 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-07-29 15:47:35.789 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Cura Health Services/TC_Cura Health Service - Login
+2025-07-29 15:47:35.814 INFO  com.kms.katalon.core.util.KeywordUtil    - [SAUCELABS] Current run configuration: TestCloud - macOS, Msedge, version=140, Tunnel=false
+2025-07-29 15:47:35.815 INFO  com.kms.katalon.core.util.KeywordUtil    - [SAUCELABS] Saucelabs Plugin will not attempt to auto update job status and information !
+2025-07-29 15:47:35.875 DEBUG t.TC_Cura Health Service - Login         - 1: openBrowser("")
+2025-07-29 15:47:35.891 INFO  c.k.k.c.w.util.WebDriverPropertyUtil     - User set preference: ['browserVersion', '140']
+2025-07-29 15:47:35.891 INFO  c.k.k.c.w.util.WebDriverPropertyUtil     - User set preference: ['browserName', 'msedge']
+2025-07-29 15:47:35.891 INFO  c.k.k.c.w.util.WebDriverPropertyUtil     - User set preference: ['platformName', 'macos']
+2025-07-29 15:47:35.892 INFO  c.k.k.c.w.util.WebDriverPropertyUtil     - User set preference: ['katalon:options', '{metadata={organizationId=2135177, accountId=1489519, channel=kse;v=10.2.3, projectId=2100129}, executionMode=queue, usingTunnel=false}']
+2025-07-29 15:47:35.893 INFO  c.k.k.core.webui.driver.DriverFactory    - Connecting to remote web server 'testcloud.katalon.com/wd/hub' with type 'Selenium'
+2025-07-29 15:47:35.897 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2025-07-29 15:47:56.841 ERROR .s.f.SeleniumCreateSessionResponseFilter - Exception while trying to back-fill sessionId
+com.fasterxml.jackson.core.JsonParseException: Illegal character ((CTRL-CHAR, code 31)): only regular white space (\r, \n, \t) is allowed between tokens
+ at [Source: REDACTED (`StreamReadFeature.INCLUDE_SOURCE_IN_LOCATION` disabled); line: 1, column: 2]
+	at com.fasterxml.jackson.core.JsonParser._constructError(JsonParser.java:2572)
+	at com.fasterxml.jackson.core.JsonParser._constructReadException(JsonParser.java:2598)
+	at com.fasterxml.jackson.core.base.ParserMinimalBase._throwInvalidSpace(ParserMinimalBase.java:712)
+	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser._skipWSOrEnd(ReaderBasedJsonParser.java:2509)
+	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser.nextToken(ReaderBasedJsonParser.java:673)
+	at com.fasterxml.jackson.databind.ObjectMapper._initForReading(ObjectMapper.java:4992)
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4898)
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3848)
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3816)
+	at com.kms.katalon.selenium.filter.SeleniumCreateSessionResponseFilter.lambda$0(SeleniumCreateSessionResponseFilter.java:43)
+	at com.kms.katalon.selenium.filter.SeleniumCreateSessionPayloadFilter.lambda$0(SeleniumCreateSessionPayloadFilter.java:73)
+	at com.kms.katalon.selenium.filter.SeleniumBasicAuthorizationFilter.lambda$0(SeleniumBasicAuthorizationFilter.java:58)
+	at com.kms.katalon.selenium.filter.SeleniumResponseContentEncodingDecompressionFilter.lambda$0(SeleniumResponseContentEncodingDecompressionFilter.java:44)
+	at com.kms.katalon.selenium.filter.SeleniumAcceptEncodingFilter.lambda$0(SeleniumAcceptEncodingFilter.java:25)
+	at com.kms.katalon.selenium.filter.SeleniumProxyBasicAuthorizationFilter.lambda$0(SeleniumProxyBasicAuthorizationFilter.java:49)
+	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.lambda$executeAsync$1(JdkHttpClient.java:384)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2025-07-29 15:47:56.860 WARN  c.k.k.core.webui.driver.DriverFactory    - Your browser version or type does not support the BiDirectional WebDriver Protocol which is required for Smart Locator functionality. Please update your browser or switch to a compatible one.
+2025-07-29 15:47:56.861 WARN  c.k.k.core.webui.driver.DriverFactory    - Your browser version or type does not support the BiDirectional WebDriver Protocol which is required for Smart Locator functionality. Please update your browser or switch to a compatible one.
+2025-07-29 15:47:56.861 WARN  c.k.k.core.webui.driver.DriverFactory    - Your browser version or type does not support the BiDirectional WebDriver Protocol which is required for Smart Locator functionality. Please update your browser or switch to a compatible one.
+2025-07-29 15:47:56.883 INFO  c.k.k.core.webui.driver.DriverFactory    - remoteDriverUrl = testcloud.katalon.com/wd/hub
+2025-07-29 15:47:56.883 INFO  c.k.k.core.webui.driver.DriverFactory    - remoteOS = macOS
+2025-07-29 15:47:56.884 INFO  c.k.k.core.webui.driver.DriverFactory    - desiredCapabilities = {
+  "networkConnectionEnabled": false,
+  "msedge": {
+    "msedgedriverVersion": "140.0.3442.1 (1ceb2b338a3ca9c968827cdc74eb44a27b2b4768-refs/heads/main@{#1486190})",
+    "userDataDir": "/var/folders/57/msn5cf595zv4b0htv3ypq6pm0000gp/T/.com.microsoft.edgemac.4lh1C6"
+  },
+  "timeouts": {
+    "implicit": 0,
+    "pageLoad": 300000,
+    "script": 30000
+  },
+  "pageLoadStrategy": "normal",
+  "unhandledPromptBehavior": "dismiss and notify",
+  "strictFileInteractability": false,
+  "proxy": {
+    "proxyType": "UNSPECIFIED",
+    "autodetect": false
+  },
+  "webauthn:extension:minPinLength": true,
+  "webauthn:extension:credBlob": true,
+  "webauthn:extension:prf": true,
+  "acceptInsecureCerts": false,
+  "browserVersion": "140.0.3442.1",
+  "katalon:caps": {
+    "executionId": "e15b5659-7898-42ee-a314-6cfac870489e",
+    "executionSessionId": "b64fcdad-f94f-4f8c-acc1-e9a8cc743e82"
+  },
+  "fedcm:accounts": true,
+  "browserName": "MicrosoftEdge",
+  "platformName": "MAC",
+  "ms:edgeOptions": {
+    "debuggerAddress": "localhost:64485"
+  },
+  "setWindowRect": true,
+  "webauthn:extension:largeBlob": true,
+  "katalon:options": {
+    "executionId": "e15b5659-7898-42ee-a314-6cfac870489e",
+    "executionSessionId": "b64fcdad-f94f-4f8c-acc1-e9a8cc743e82",
+    "runFromTestCloud": true
+  },
+  "webauthn:virtualAuthenticators": true
+}
+2025-07-29 15:47:56.885 INFO  c.k.k.core.webui.driver.DriverFactory    - katalon:caps = {
+  "executionId": "e15b5659-7898-42ee-a314-6cfac870489e",
+  "executionSessionId": "b64fcdad-f94f-4f8c-acc1-e9a8cc743e82"
+}
+2025-07-29 15:47:56.885 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = b64fcdad-f94f-4f8c-acc1-e9a8cc743e82
+2025-07-29 15:47:56.886 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Edge Chromium 140.0.3442.1
+2025-07-29 15:47:56.886 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Mac OS X
+2025-07-29 15:47:56.886 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-07-29 15:47:56.886 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-07-29 15:47:57.286 DEBUG t.TC_Cura Health Service - Login         - 2: navigateToUrl("https://katalon-demo-cura.herokuapp.com/")
+2025-07-29 15:47:57.989 DEBUG t.TC_Cura Health Service - Login         - 3: switchToWindowTitle("CURA Healthcare Service")
+2025-07-29 15:47:59.014 DEBUG t.TC_Cura Health Service - Login         - 4: verifyElementText(findTestObject("Object Repository/Page_CURA Healthcare Service/h1_CURA Healthcare Service"), "CURA Healthcare Service")
+2025-07-29 15:48:00.647 DEBUG t.TC_Cura Health Service - Login         - 5: verifyElementText(findTestObject("Object Repository/Page_CURA Healthcare Service/a_Make Appointment"), "Make Appointment")
+2025-07-29 15:48:02.420 DEBUG t.TC_Cura Health Service - Login         - 6: click(findTestObject("Object Repository/Page_CURA Healthcare Service/a_Make Appointment"))
+2025-07-29 15:48:04.338 DEBUG t.TC_Cura Health Service - Login         - 7: verifyElementText(findTestObject("Object Repository/Page_CURA Healthcare Service/h2_Login"), "Login")
+2025-07-29 15:48:06.060 DEBUG t.TC_Cura Health Service - Login         - 8: setText(findTestObject("Object Repository/Page_CURA Healthcare Service/input_Username_username"), "John Doe")
+2025-07-29 15:48:10.597 DEBUG t.TC_Cura Health Service - Login         - 9: setEncryptedText(findTestObject("Object Repository/Page_CURA Healthcare Service/input_Password_password"), "g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM")
+2025-07-29 15:48:12.626 DEBUG t.TC_Cura Health Service - Login         - 10: click(findTestObject("Object Repository/Page_CURA Healthcare Service/button_Login"))
+2025-07-29 15:48:14.415 DEBUG t.TC_Cura Health Service - Login         - 11: closeBrowser()
+2025-07-29 15:48:14.881 INFO  com.kms.katalon.core.util.KeywordUtil    - [SAUCELABS] Current run configuration: TestCloud - macOS, Msedge, version=140, Tunnel=false
+2025-07-29 15:48:14.882 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Cura Health Services/TC_Cura Health Service - Login
+2025-07-29 15:48:14.897 INFO  c.k.katalon.core.main.TestSuiteExecutor  - --------------------
+2025-07-29 15:48:14.898 INFO  c.k.katalon.core.main.TestSuiteExecutor  - END Test Suites/TS_Orange HR
+2025-07-29 15:48:14.898 INFO  c.k.katalon.core.main.TestSuiteExecutor  - ====================

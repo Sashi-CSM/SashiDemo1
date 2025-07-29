@@ -1,0 +1,35 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_Orange HR,TestCloud - macOS - Edge Chromium 140.0.3442.1,,,29-07-2025 15:46:45,29-07-2025 15:48:14,1m - 28.911s,PASSED
+,,,,,,,
+Test Cases/Cura Health Services/TC_Cura Health Services - Make Appointment,TestCloud - macOS - Edge Chromium 140.0.3442.1,,,29-07-2025 15:46:46,29-07-2025 15:47:35,49.652s,PASSED
+Start listener action : enableSauceLabs,TestCloud - macOS - Edge Chromium 140.0.3442.1,,,29-07-2025 15:46:46,29-07-2025 15:46:46,0.006s,PASSED
+"openBrowser("""")",TestCloud - macOS - Edge Chromium 140.0.3442.1,,,29-07-2025 15:46:46,29-07-2025 15:47:09,23.589s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",TestCloud - macOS - Edge Chromium 140.0.3442.1,,,29-07-2025 15:47:09,29-07-2025 15:47:10,0.808s,PASSED
+"switchToWindowTitle(""CURA Healthcare Service"")",TestCloud - macOS - Edge Chromium 140.0.3442.1,,,29-07-2025 15:47:10,29-07-2025 15:47:11,1.027s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_CURA Healthcare Service/h1_CURA Healthcare Service""), ""CURA Healthcare Service"")",TestCloud - macOS - Edge Chromium 140.0.3442.1,,,29-07-2025 15:47:11,29-07-2025 15:47:13,1.951s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/a_Make Appointment""))",TestCloud - macOS - Edge Chromium 140.0.3442.1,,,29-07-2025 15:47:13,29-07-2025 15:47:15,1.787s,PASSED
+"setText(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Username_username""), ""John Doe"")",TestCloud - macOS - Edge Chromium 140.0.3442.1,,,29-07-2025 15:47:15,29-07-2025 15:47:19,4.577s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Password_password""), ""g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"")",TestCloud - macOS - Edge Chromium 140.0.3442.1,,,29-07-2025 15:47:19,29-07-2025 15:47:22,2.150s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/button_Login""))",TestCloud - macOS - Edge Chromium 140.0.3442.1,,,29-07-2025 15:47:22,29-07-2025 15:47:23,1.806s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/label_Visit Date (Required)""))",TestCloud - macOS - Edge Chromium 140.0.3442.1,,,29-07-2025 15:47:23,29-07-2025 15:47:25,1.713s,PASSED
+"setText(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Visit Date (Required)_visit_date""), ""31/12/2005"")",TestCloud - macOS - Edge Chromium 140.0.3442.1,,,29-07-2025 15:47:25,29-07-2025 15:47:29,4.197s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/form_Facility                              _20adf0""))",TestCloud - macOS - Edge Chromium 140.0.3442.1,,,29-07-2025 15:47:29,29-07-2025 15:47:31,1.785s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/button_Book Appointment""))",TestCloud - macOS - Edge Chromium 140.0.3442.1,,,29-07-2025 15:47:31,29-07-2025 15:47:33,1.765s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/a_Go to Homepage""))",TestCloud - macOS - Edge Chromium 140.0.3442.1,,,29-07-2025 15:47:33,29-07-2025 15:47:35,1.957s,PASSED
+closeBrowser(),TestCloud - macOS - Edge Chromium 140.0.3442.1,,,29-07-2025 15:47:35,29-07-2025 15:47:35,0.426s,PASSED
+Start listener action : autoUpdateJobStatus,TestCloud - macOS - Edge Chromium 140.0.3442.1,,,29-07-2025 15:47:35,29-07-2025 15:47:35,0.001s,PASSED
+,,,,,,,
+Test Cases/Cura Health Services/TC_Cura Health Service - Login,TestCloud - macOS - Edge Chromium 140.0.3442.1,,,29-07-2025 15:47:35,29-07-2025 15:48:14,39.092s,PASSED
+Start listener action : enableSauceLabs,TestCloud - macOS - Edge Chromium 140.0.3442.1,,,29-07-2025 15:47:35,29-07-2025 15:47:35,0.001s,PASSED
+"openBrowser("""")",TestCloud - macOS - Edge Chromium 140.0.3442.1,,,29-07-2025 15:47:35,29-07-2025 15:47:57,21.411s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",TestCloud - macOS - Edge Chromium 140.0.3442.1,,,29-07-2025 15:47:57,29-07-2025 15:47:57,0.702s,PASSED
+"switchToWindowTitle(""CURA Healthcare Service"")",TestCloud - macOS - Edge Chromium 140.0.3442.1,,,29-07-2025 15:47:57,29-07-2025 15:47:59,1.025s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_CURA Healthcare Service/h1_CURA Healthcare Service""), ""CURA Healthcare Service"")",TestCloud - macOS - Edge Chromium 140.0.3442.1,,,29-07-2025 15:47:59,29-07-2025 15:48:00,1.632s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_CURA Healthcare Service/a_Make Appointment""), ""Make Appointment"")",TestCloud - macOS - Edge Chromium 140.0.3442.1,,,29-07-2025 15:48:00,29-07-2025 15:48:02,1.772s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/a_Make Appointment""))",TestCloud - macOS - Edge Chromium 140.0.3442.1,,,29-07-2025 15:48:02,29-07-2025 15:48:04,1.918s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_CURA Healthcare Service/h2_Login""), ""Login"")",TestCloud - macOS - Edge Chromium 140.0.3442.1,,,29-07-2025 15:48:04,29-07-2025 15:48:06,1.721s,PASSED
+"setText(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Username_username""), ""John Doe"")",TestCloud - macOS - Edge Chromium 140.0.3442.1,,,29-07-2025 15:48:06,29-07-2025 15:48:10,4.537s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Password_password""), ""g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"")",TestCloud - macOS - Edge Chromium 140.0.3442.1,,,29-07-2025 15:48:10,29-07-2025 15:48:12,2.027s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/button_Login""))",TestCloud - macOS - Edge Chromium 140.0.3442.1,,,29-07-2025 15:48:12,29-07-2025 15:48:14,1.790s,PASSED
+closeBrowser(),TestCloud - macOS - Edge Chromium 140.0.3442.1,,,29-07-2025 15:48:14,29-07-2025 15:48:14,0.463s,PASSED
+Start listener action : autoUpdateJobStatus,TestCloud - macOS - Edge Chromium 140.0.3442.1,,,29-07-2025 15:48:14,29-07-2025 15:48:14,0.001s,PASSED

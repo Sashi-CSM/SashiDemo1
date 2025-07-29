@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_Cura Health Services" time="25.545" tests="1" failures="0" errors="0">
+   <testsuite name="TS_Cura Health Services" tests="1" failures="0" errors="0" time="25.545" skipped="0" timestamp="2025-07-29T10:16:25.913Z" hostname="sashidharmudigonda - 192.168.1.8" id="Test Suites/TS_Cura Health Services">
+      <properties>
+         <property name="deviceName"/>
+         <property name="devicePlatform" value="WINDOWS"/>
+         <property name="logFolder" value="/Users/sashidharmudigonda/Documents/Katalon Projects/SashiDemo1/Reports/20250729_154623/TS_Cura Health Services/20250729_154623"/>
+         <property name="logFiles" value="/Users/sashidharmudigonda/Documents/Katalon Projects/SashiDemo1/Reports/20250729_154623/TS_Cura Health Services/20250729_154623/execution0.log, /Users/sashidharmudigonda/Documents/Katalon Projects/SashiDemo1/Reports/20250729_154623/TS_Cura Health Services/20250729_154623/console0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="sashidharmudigonda - 192.168.1.8"/>
+         <property name="remoteDriverUrl" value="testcloud.katalon.com/wd/hub"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="remoteOS" value="Windows"/>
+         <property name="katalonVersion" value="10.2.3.0"/>
+         <property name="userFullName" value="Sashidhar Sashi Mudigonda"/>
+         <property name="sessionId" value="1ad55810-2c28-4e81-95ac-a168b896e77b"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+         <property name="desiredCapabilities" value="{&#xa;  &quot;networkConnectionEnabled&quot;: false,&#xa;  &quot;chrome&quot;: {&#xa;    &quot;chromedriverVersion&quot;: &quot;140.0.7312.0 (01c1bfa87ec21e0740b28fa783a4da6d0de05820-refs/branch-heads/7312@{#1})&quot;,&#xa;    &quot;userDataDir&quot;: &quot;C:\\Program Files\\scoped_dir1856_106710966&quot;&#xa;  },&#xa;  &quot;timeouts&quot;: {&#xa;    &quot;implicit&quot;: 0,&#xa;    &quot;pageLoad&quot;: 300000,&#xa;    &quot;script&quot;: 30000&#xa;  },&#xa;  &quot;pageLoadStrategy&quot;: &quot;normal&quot;,&#xa;  &quot;unhandledPromptBehavior&quot;: &quot;dismiss and notify&quot;,&#xa;  &quot;strictFileInteractability&quot;: false,&#xa;  &quot;proxy&quot;: {&#xa;    &quot;proxyType&quot;: &quot;UNSPECIFIED&quot;,&#xa;    &quot;autodetect&quot;: false&#xa;  },&#xa;  &quot;webauthn:extension:minPinLength&quot;: true,&#xa;  &quot;goog:chromeOptions&quot;: {&#xa;    &quot;debuggerAddress&quot;: &quot;localhost:9225&quot;&#xa;  },&#xa;  &quot;webauthn:extension:credBlob&quot;: true,&#xa;  &quot;webauthn:extension:prf&quot;: true,&#xa;  &quot;acceptInsecureCerts&quot;: false,&#xa;  &quot;browserVersion&quot;: &quot;140.0.7312.0&quot;,&#xa;  &quot;katalon:caps&quot;: {&#xa;    &quot;executionId&quot;: &quot;d8423a7c-f582-47c0-aaec-99dfa976bccb&quot;,&#xa;    &quot;executionSessionId&quot;: &quot;1ad55810-2c28-4e81-95ac-a168b896e77b&quot;&#xa;  },&#xa;  &quot;fedcm:accounts&quot;: true,&#xa;  &quot;browserName&quot;: &quot;chrome&quot;,&#xa;  &quot;platformName&quot;: &quot;WINDOWS&quot;,&#xa;  &quot;setWindowRect&quot;: true,&#xa;  &quot;webauthn:extension:largeBlob&quot;: true,&#xa;  &quot;katalon:options&quot;: {&#xa;    &quot;executionId&quot;: &quot;d8423a7c-f582-47c0-aaec-99dfa976bccb&quot;,&#xa;    &quot;executionSessionId&quot;: &quot;1ad55810-2c28-4e81-95ac-a168b896e77b&quot;,&#xa;    &quot;runFromTestCloud&quot;: true&#xa;  },&#xa;  &quot;webauthn:virtualAuthenticators&quot;: true&#xa;}"/>
+         <property name="katalon:caps" value="{&#xa;  &quot;executionId&quot;: &quot;d8423a7c-f582-47c0-aaec-99dfa976bccb&quot;,&#xa;  &quot;executionSessionId&quot;: &quot;1ad55810-2c28-4e81-95ac-a168b896e77b&quot;&#xa;}"/>
+         <property name="browser" value="Chrome 140.0.7312.0"/>
+         <property name="hostAddress" value="192.168.1.8"/>
+         <property name="projectName" value="SashiDemo1"/>
+         <property name="seleniumVersion" value="4.28.1"/>
+      </properties>
+      <testcase name="Test Cases/Cura Health Services/TC_Cura Health Service - Login" time="25.362" classname="Test Cases/Cura Health Services/TC_Cura Health Service - Login" status="PASSED">
+         <system-out><![CDATA[29-07-2025T15:46:26 - [TEST_CASE][PASSED] - Test Cases/Cura Health Services/TC_Cura Health Service - Login: Test Cases/Cura Health Services/TC_Cura Health Service - Login
+
+29-07-2025T15:46:26 - [TEST_STEP][PASSED] - Start listener action : enableSauceLabs: [SAUCELABS] Saucelabs Plugin will not attempt to auto update job status and information !
+
+29-07-2025T15:46:26 - [MESSAGE][INFO] - [SAUCELABS] Current run configuration: TestCloud - Windows, Chrome, version=140, Tunnel=false
+
+29-07-2025T15:46:26 - [MESSAGE][INFO] - [SAUCELABS] Saucelabs Plugin will not attempt to auto update job status and information !
+
+29-07-2025T15:46:26 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+29-07-2025T15:46:26 - [MESSAGE][INFO] - User set preference: ['browserVersion', '140']
+
+29-07-2025T15:46:26 - [MESSAGE][INFO] - User set preference: ['browserName', 'chrome']
+
+29-07-2025T15:46:26 - [MESSAGE][INFO] - User set preference: ['platformName', 'windows']
+
+29-07-2025T15:46:26 - [MESSAGE][INFO] - User set preference: ['katalon:options', '{metadata={organizationId=2135177, accountId=1489519, channel=kse;v=10.2.3, projectId=2100129}, executionMode=queue, usingTunnel=false}']
+
+29-07-2025T15:46:26 - [MESSAGE][INFO] - Connecting to remote web server 'testcloud.katalon.com/wd/hub' with type 'Selenium'
+
+29-07-2025T15:46:26 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+29-07-2025T15:46:35 - [MESSAGE][WARNING] - Your browser version or type does not support the BiDirectional WebDriver Protocol which is required for Smart Locator functionality. Please update your browser or switch to a compatible one.
+
+29-07-2025T15:46:35 - [MESSAGE][WARNING] - Your browser version or type does not support the BiDirectional WebDriver Protocol which is required for Smart Locator functionality. Please update your browser or switch to a compatible one.
+
+29-07-2025T15:46:35 - [MESSAGE][WARNING] - Your browser version or type does not support the BiDirectional WebDriver Protocol which is required for Smart Locator functionality. Please update your browser or switch to a compatible one.
+
+29-07-2025T15:46:35 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+29-07-2025T15:46:35 - [TEST_STEP][PASSED] - navigateToUrl("https://katalon-demo-cura.herokuapp.com/"): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+29-07-2025T15:46:36 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+29-07-2025T15:46:36 - [TEST_STEP][PASSED] - switchToWindowTitle("CURA Healthcare Service"): Switched to window with title: 'CURA Healthcare Service'
+
+29-07-2025T15:46:37 - [MESSAGE][PASSED] - Switched to window with title: 'CURA Healthcare Service'
+
+29-07-2025T15:46:37 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_CURA Healthcare Service/h1_CURA Healthcare Service"), "CURA Healthcare Service"): Actual text and expected text of test object 'Object Repository/Page_CURA Healthcare Service/h1_CURA Healthcare Service' are matched.
+
+29-07-2025T15:46:39 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_CURA Healthcare Service/h1_CURA Healthcare Service' are matched.
+
+29-07-2025T15:46:39 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_CURA Healthcare Service/a_Make Appointment"), "Make Appointment"): Actual text and expected text of test object 'Object Repository/Page_CURA Healthcare Service/a_Make Appointment' are matched.
+
+29-07-2025T15:46:40 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_CURA Healthcare Service/a_Make Appointment' are matched.
+
+29-07-2025T15:46:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_CURA Healthcare Service/a_Make Appointment")): Object: 'Object Repository/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+29-07-2025T15:46:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+29-07-2025T15:46:42 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_CURA Healthcare Service/h2_Login"), "Login"): Actual text and expected text of test object 'Object Repository/Page_CURA Healthcare Service/h2_Login' are matched.
+
+29-07-2025T15:46:43 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_CURA Healthcare Service/h2_Login' are matched.
+
+29-07-2025T15:46:43 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_CURA Healthcare Service/input_Username_username"), "John Doe"): Text 'John Doe' is set on object 'Object Repository/Page_CURA Healthcare Service/input_Username_username'
+
+29-07-2025T15:46:47 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/Page_CURA Healthcare Service/input_Username_username'
+
+29-07-2025T15:46:47 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_CURA Healthcare Service/input_Password_password"), "g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"): Text ****** has been set on object 'Object Repository/Page_CURA Healthcare Service/input_Password_password'
+
+29-07-2025T15:46:49 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_CURA Healthcare Service/input_Password_password'
+
+29-07-2025T15:46:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_CURA Healthcare Service/button_Login")): Object: 'Object Repository/Page_CURA Healthcare Service/button_Login' is clicked on
+
+29-07-2025T15:46:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/button_Login' is clicked on
+
+29-07-2025T15:46:51 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+29-07-2025T15:46:51 - [MESSAGE][PASSED] - Browser is closed
+
+29-07-2025T15:46:51 - [TEST_STEP][PASSED] - Start listener action : autoUpdateJobStatus: [SAUCELABS] Current run configuration: TestCloud - Windows, Chrome, version=140, Tunnel=false
+
+29-07-2025T15:46:51 - [MESSAGE][INFO] - [SAUCELABS] Current run configuration: TestCloud - Windows, Chrome, version=140, Tunnel=false]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[29-07-2025T15:46:25 - [TEST_SUITE][PASSED] - TS_Cura Health Services: null]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

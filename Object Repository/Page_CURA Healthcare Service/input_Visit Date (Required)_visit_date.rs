@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Username_username</name>
+   <name>input_Visit Date (Required)_visit_date</name>
    <tag></tag>
-   <elementGuidId>37ef8dcf-95fc-42a6-9481-e924cdd91a7e</elementGuidId>
+   <elementGuidId>302e9b4b-d188-4327-9c24-b748005bd09e</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>#txt-username</value>
+         <value>#txt_visit_date</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='txt-username']</value>
+         <value>//input[@id='txt_visit_date']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:label=&quot;Username&quot;i</value>
+         <value>internal:attr=[placeholder=&quot;dd/mm/yyyy&quot;i]</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>8d08ecc7-1f76-4949-a765-37da19b59f4f</webElementGuid>
+      <webElementGuid>2325d191-4cdc-459e-bb35-36a094e48c6e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>c49ce2d6-f5f4-424e-b66d-006c9c5551e8</webElementGuid>
+      <webElementGuid>42108bcf-f1f4-4640-b279-66ef0b6b54fa</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,31 +45,31 @@
       <name>class</name>
       <type>Main</type>
       <value>form-control</value>
-      <webElementGuid>74860337-4905-4ac9-8bef-fbe2f7ed3d1b</webElementGuid>
+      <webElementGuid>5cbcc6f4-d99c-4d4b-a8b6-3b9fa90056bc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>txt-username</value>
-      <webElementGuid>c7cafb73-3a1e-4d0e-9ba3-006b6dffbd4a</webElementGuid>
+      <value>txt_visit_date</value>
+      <webElementGuid>7567f429-e146-4ab8-8ad6-ac5e39f00812</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>username</value>
-      <webElementGuid>cc0b18ad-d5f4-4e1b-9604-c504b6682221</webElementGuid>
+      <value>visit_date</value>
+      <webElementGuid>3c0646b9-d636-41c0-b277-fea396ce0faf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>placeholder</name>
       <type>Main</type>
-      <value>Username</value>
-      <webElementGuid>5e02a167-663a-4f97-8d54-59a1563b88fa</webElementGuid>
+      <value>dd/mm/yyyy</value>
+      <webElementGuid>4fdfb3e2-0942-4372-ac83-9dd7dc6a6c34</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,46 +77,46 @@
       <name>autocomplete</name>
       <type>Main</type>
       <value>off</value>
-      <webElementGuid>bfeac0fa-860e-43ed-8cd3-6ae5fc697d06</webElementGuid>
+      <webElementGuid>2f698a91-9ffe-4353-aebf-c0d735b0d408</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;txt-username&quot;)</value>
-      <webElementGuid>d7235504-fb90-4d51-9732-d1a762ffe885</webElementGuid>
+      <value>id(&quot;txt_visit_date&quot;)</value>
+      <webElementGuid>2b1d8dc6-9323-4b3d-b95a-d4d9d95a5da4</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='txt-username']</value>
-      <webElementGuid>42cba456-fcc7-4f28-9cb8-2fc887de2a52</webElementGuid>
+      <value>//input[@id='txt_visit_date']</value>
+      <webElementGuid>cb799ff6-7668-4c08-a744-0b5719066d69</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//section[@id='login']/div/div/div[2]/form/div[2]/div/input</value>
-      <webElementGuid>bbadbe49-7446-44ac-82b8-e6dc66a1bbd3</webElementGuid>
+      <value>//section[@id='appointment']/div/div/form/div[4]/div/div/input</value>
+      <webElementGuid>18bfff01-e5ca-4ac4-80d2-c76f92bf89ae</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/div/input</value>
-      <webElementGuid>c0779f4c-b50c-481b-9a7f-d18aa92d8742</webElementGuid>
+      <value>//div/input</value>
+      <webElementGuid>b3d59ffc-3f9c-4a86-97fd-8c5e39e4f82f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//input[@type = 'text' and @id = 'txt-username' and @name = 'username' and @placeholder = 'Username']</value>
-      <webElementGuid>d4262e02-32f1-4820-a652-5666df4cab04</webElementGuid>
+      <value>//input[@type = 'text' and @id = 'txt_visit_date' and @name = 'visit_date' and @placeholder = 'dd/mm/yyyy']</value>
+      <webElementGuid>1a3bfff0-978a-4673-b557-5358775ef9ac</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

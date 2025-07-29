@@ -1,0 +1,17 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_Cura Health Services,TestCloud - Windows - Chrome 140.0.7312.0,,,29-07-2025 15:46:25,29-07-2025 15:46:51,25.564s,PASSED
+,,,,,,,
+Test Cases/Cura Health Services/TC_Cura Health Service - Login,TestCloud - Windows - Chrome 140.0.7312.0,,,29-07-2025 15:46:26,29-07-2025 15:46:51,25.362s,PASSED
+Start listener action : enableSauceLabs,TestCloud - Windows - Chrome 140.0.7312.0,,,29-07-2025 15:46:26,29-07-2025 15:46:26,0.007s,PASSED
+"openBrowser("""")",TestCloud - Windows - Chrome 140.0.7312.0,,,29-07-2025 15:46:26,29-07-2025 15:46:35,9.787s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",TestCloud - Windows - Chrome 140.0.7312.0,,,29-07-2025 15:46:35,29-07-2025 15:46:36,0.817s,PASSED
+"switchToWindowTitle(""CURA Healthcare Service"")",TestCloud - Windows - Chrome 140.0.7312.0,,,29-07-2025 15:46:36,29-07-2025 15:46:37,0.889s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_CURA Healthcare Service/h1_CURA Healthcare Service""), ""CURA Healthcare Service"")",TestCloud - Windows - Chrome 140.0.7312.0,,,29-07-2025 15:46:37,29-07-2025 15:46:39,1.513s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_CURA Healthcare Service/a_Make Appointment""), ""Make Appointment"")",TestCloud - Windows - Chrome 140.0.7312.0,,,29-07-2025 15:46:39,29-07-2025 15:46:40,1.372s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/a_Make Appointment""))",TestCloud - Windows - Chrome 140.0.7312.0,,,29-07-2025 15:46:40,29-07-2025 15:46:42,1.751s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_CURA Healthcare Service/h2_Login""), ""Login"")",TestCloud - Windows - Chrome 140.0.7312.0,,,29-07-2025 15:46:42,29-07-2025 15:46:43,1.352s,PASSED
+"setText(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Username_username""), ""John Doe"")",TestCloud - Windows - Chrome 140.0.7312.0,,,29-07-2025 15:46:43,29-07-2025 15:46:47,3.909s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Password_password""), ""g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"")",TestCloud - Windows - Chrome 140.0.7312.0,,,29-07-2025 15:46:47,29-07-2025 15:46:49,1.738s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/button_Login""))",TestCloud - Windows - Chrome 140.0.7312.0,,,29-07-2025 15:46:49,29-07-2025 15:46:51,1.728s,PASSED
+closeBrowser(),TestCloud - Windows - Chrome 140.0.7312.0,,,29-07-2025 15:46:51,29-07-2025 15:46:51,0.408s,PASSED
+Start listener action : autoUpdateJobStatus,TestCloud - Windows - Chrome 140.0.7312.0,,,29-07-2025 15:46:51,29-07-2025 15:46:51,0.002s,PASSED
