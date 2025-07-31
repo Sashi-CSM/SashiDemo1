@@ -15,7 +15,7 @@
       <guid>eca9bf37-a6f6-48b4-a9bd-5fb102f7b453</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Orange HR/TC_Orange HR - Visual Testing 1</testCaseId>
+      <testCaseId>Test Cases/Orange HR/TC_Orange HR - Visual Testing</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>
