@@ -16,26 +16,35 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
-
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://katalon-demo-cura.herokuapp.com/')
+WebUI.navigateToUrl('https://opensource-demo.orangehrmlive.com/')
 
-WebUI.switchToWindowTitle('CURA Healthcare Service')
+WebUI.switchToWindowTitle('OrangeHRM')
 
-WebUI.verifyElementText(findTestObject('Page_CURA Healthcare Service/h1_CURA Healthcare Service'), 'CURA Healthcare Service')
+WebUI.takeScreenshotAsCheckpoint('Screen Shot 1')
 
-WebUI.verifyElementText(findTestObject('Page_CURA Healthcare Service/a_Make Appointment'), 'Make Appointment')
+WebUI.setText(findTestObject('Page_OrangeHRM/input_Username_username'), 'Admin')
 
-WebUI.click(findTestObject('Page_CURA Healthcare Service/a_Make Appointment'))
+WebUI.setEncryptedText(findTestObject('Page_OrangeHRM/input_Password_password'), 'hUKwJTbofgPU9eVlw/CnDQ==')
 
-WebUI.verifyElementText(findTestObject('Page_CURA Healthcare Service/h2_Login'), 'Login')
+WebUI.click(findTestObject('Page_OrangeHRM/button_Login'))
 
-WebUI.setText(findTestObject('Page_CURA Healthcare Service/input_Username_username'), 'John Doe')
+WebUI.click(findTestObject('Page_OrangeHRM/span_Leave'))
 
-WebUI.setEncryptedText(findTestObject('Page_CURA Healthcare Service/input_Password_password'), 'g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM')
+WebUI.verifyElementText(findTestObject('Page_OrangeHRM/h6_Leave'), 'Leave')
 
-WebUI.click(findTestObject('Page_CURA Healthcare Service/button_Login'))
+WebUI.takeScreenshotAsCheckpoint('Screen Shot 2')
+
+WebUI.click(findTestObject('Page_OrangeHRM/a_My Info'))
+
+WebUI.verifyElementText(findTestObject('Page_OrangeHRM/h6_PIM'), 'PIM')
+
+WebUI.click(findTestObject('Page_OrangeHRM/span_Dashboard'))
+
+WebUI.verifyElementText(findTestObject('Page_OrangeHRM/h6_Dashboard'), 'Dashboard')
+
+WebUI.takeScreenshotAsCheckpoint('Screen Shot 3')
 
 WebUI.closeBrowser()
 

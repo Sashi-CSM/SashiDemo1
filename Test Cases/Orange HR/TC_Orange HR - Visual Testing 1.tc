@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC_Cura Health Services - Make Appointment</name>
+   <name>TC_Orange HR - Visual Testing 1</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>5dc7058c-e277-4503-8f32-7387948b60b9</testCaseGuid>
+   <testCaseGuid>0263ca67-11a8-41e0-815f-9d2b7b8b4e2f</testCaseGuid>
 </TestCaseEntity>

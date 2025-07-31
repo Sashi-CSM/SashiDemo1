@@ -23,23 +23,23 @@ WebUI.navigateToUrl('https://opensource-demo.orangehrmlive.com/')
 
 WebUI.switchToWindowTitle('OrangeHRM')
 
-WebUI.setText(findTestObject('Object Repository/Page_OrangeHRM/input_Username_username'), 'Admin')
+WebUI.setText(findTestObject('Page_OrangeHRM/input_Username_username'), 'Admin')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_OrangeHRM/input_Password_password'), 'hUKwJTbofgPU9eVlw/CnDQ==')
+WebUI.setEncryptedText(findTestObject('Page_OrangeHRM/input_Password_password'), 'hUKwJTbofgPU9eVlw/CnDQ==')
 
-WebUI.click(findTestObject('Object Repository/Page_OrangeHRM/button_Login'))
+WebUI.click(findTestObject('Page_OrangeHRM/button_Login'))
 
-WebUI.click(findTestObject('Object Repository/Page_OrangeHRM/span_Leave'))
+WebUI.click(findTestObject('Page_OrangeHRM/span_Leave'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/Page_OrangeHRM/h6_Leave'), 'Leave')
+WebUI.verifyElementText(findTestObject('Page_OrangeHRM/h6_Leave'), 'Leave')
 
-WebUI.click(findTestObject('Object Repository/Page_OrangeHRM/a_My Info'))
+WebUI.click(findTestObject('Page_OrangeHRM/a_My Info'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/Page_OrangeHRM/h6_PIM'), 'PIM')
+WebUI.verifyElementText(findTestObject('Page_OrangeHRM/h6_PIM'), 'PIM')
 
-WebUI.click(findTestObject('Object Repository/Page_OrangeHRM/span_Dashboard'))
+WebUI.click(findTestObject('Page_OrangeHRM/span_Dashboard'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/Page_OrangeHRM/h6_Dashboard'), 'Dashboard')
+WebUI.verifyElementText(findTestObject('Page_OrangeHRM/h6_Dashboard'), 'Dashboard')
 
 WebUI.closeBrowser()
 
