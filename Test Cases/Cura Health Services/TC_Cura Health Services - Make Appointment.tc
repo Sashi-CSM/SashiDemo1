@@ -6,4 +6,22 @@
    <comment></comment>
    <recordOption>OTHER</recordOption>
    <testCaseGuid>5dc7058c-e277-4503-8f32-7387948b60b9</testCaseGuid>
+   <integratedEntity>
+      <productName>TESTOPS</productName>
+      <properties>
+         <customFields>
+            <customField>
+               <key>featureArea</key>
+            </customField>
+            <customField>
+               <key>testType</key>
+            </customField>
+         </customFields>
+         <assignee></assignee>
+         <linkedTestCases>
+            <linkedTestCaseId>12765861</linkedTestCaseId>
+         </linkedTestCases>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
 </TestCaseEntity>
