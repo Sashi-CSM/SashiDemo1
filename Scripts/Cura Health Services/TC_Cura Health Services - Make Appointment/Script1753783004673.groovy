@@ -23,25 +23,25 @@ WebUI.navigateToUrl('https://katalon-demo-cura.herokuapp.com/')
 
 WebUI.switchToWindowTitle('CURA Healthcare Service')
 
-WebUI.verifyElementText(findTestObject('Object Repository/Page_CURA Healthcare Service/h1_CURA Healthcare Service'), 'CURA Healthcare Service')
+WebUI.verifyElementText(findTestObject('Page_CURA Healthcare Service/h1_CURA Healthcare Service'), 'CURA Healthcare Service')
 
-WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/a_Make Appointment'))
+WebUI.click(findTestObject('Page_CURA Healthcare Service/a_Make Appointment'))
 
-WebUI.setText(findTestObject('Object Repository/Page_CURA Healthcare Service/input_Username_username'), 'John Doe')
+WebUI.setText(findTestObject('Page_CURA Healthcare Service/input_Username_username'), 'John Doe')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_CURA Healthcare Service/input_Password_password'), 'g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM')
+WebUI.setEncryptedText(findTestObject('Page_CURA Healthcare Service/input_Password_password'), 'g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM')
 
-WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/button_Login'))
+WebUI.click(findTestObject('Page_CURA Healthcare Service/button_Login'))
 
-WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/label_Visit Date (Required)'))
+WebUI.click(findTestObject('Page_CURA Healthcare Service/label_Visit Date (Required)'))
 
-WebUI.setText(findTestObject('Object Repository/Page_CURA Healthcare Service/input_Visit Date (Required)_visit_date'), '31/12/2005')
+WebUI.setText(findTestObject('Page_CURA Healthcare Service/input_Visit Date (Required)_visit_date'), '31/12/2005')
 
-WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/form_Facility                              _20adf0'))
+WebUI.click(findTestObject('Page_CURA Healthcare Service/form_Facility                              _20adf0'))
 
-WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/button_Book Appointment'))
+WebUI.click(findTestObject('Page_CURA Healthcare Service/button_Book Appointment'))
 
-WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/a_Go to Homepage'))
+WebUI.click(findTestObject('Page_CURA Healthcare Service/a_Go to Homepage'))
 
 WebUI.closeBrowser()
 
